@@ -10,6 +10,14 @@
 @import './layout/main.scss';
 @import './layout/footer.scss';
 
+//Paginas
+@import './paginas/bases-y-condiciones.scss';
+@import './paginas/contacto.scss';
+@import './paginas/productos.scss';
+@import './paginas/sobrenosotros.scss';
+
+
+
 header {
     background-color:$terciary-color;
         nav{
