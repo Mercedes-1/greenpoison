@@ -20,12 +20,14 @@
 
 header {
     background-color:$terciary-color;
+    padding: 20px;
+    position: fixed;
         nav{
             display: flex;
-            li{
-                list-style-type:none;
-                padding: 12px;
-                text-decoration: none;
+                    li .menu-item a{
+                        text-decoration: none;
+                        top: 0;
+                        left: 0;
                 a{
                     &:hover{
                         font-size: 20px;
