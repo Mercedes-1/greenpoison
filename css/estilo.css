@@ -16,18 +16,18 @@ header {
   position: fixed;
   display: flex;
   justify-content: center;
-  z-index: 600000;
 }
 header ul {
   list-style-type: none;
 }
 header ul li {
   padding: 0px 12px;
+  transition: all 0.3s ease;
+}
+header ul li a {
   color: #00FF00;
   font-size: 18px;
-  transition: all 0.3s ease;
   text-decoration: none;
-  flex-direction: row;
 }
 header ul li:hover {
   font-size: 20px;

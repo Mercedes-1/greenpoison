@@ -23,16 +23,15 @@ header {
     position: fixed;
     display: flex;
     justify-content: center;
-    z-index: 600000;
     ul{
         list-style-type: none; 
         li{
             padding: 0px 12px;
-            color: $secondary-color;
-            font-size: 18px;
             transition: all 0.3s ease;
-            text-decoration: none;
-            flex-direction: row;
+             a{color: $secondary-color;
+            font-size: 18px;
+            text-decoration: none;            
+            }
             &:hover{
                 font-size: 20px;
                 transform: translateY(-3px);
@@ -45,7 +44,7 @@ header {
 footer{
     background-color:$terciary-color;
     padding: 12px;
-    color: $primary-color;
+    color:$primary-color;
     font-size: 10px;
     display: flex;
     justify-content: space-between;
