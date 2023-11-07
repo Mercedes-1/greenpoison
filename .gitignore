@@ -18,3 +18,27 @@ header {
             
                 }
 }
+
+header {
+    background-color: $terciary-color;
+    padding: 15px 0px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    ul{
+        list-style-type: none; 
+        li{
+            padding: 0px 12px;
+            transition: all 0.3s ease;
+             a{color: $secondary-color;
+            font-size: 18px;
+            text-decoration: none;            
+            }
+            &:hover{
+                font-size: 20px;
+                transform: translateY(-3px);
+                transition: all 0.3s ease;
+                }
+        }
+    }
+}

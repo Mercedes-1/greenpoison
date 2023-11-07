@@ -12,17 +12,36 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
   background-color: #000000;
-}
-header nav {
+  padding: 15px 0px;
+  position: fixed;
   display: flex;
+  justify-content: center;
 }
-header nav li {
+header ul {
   list-style-type: none;
-  padding: 12px;
-  text-decoration: none;
 }
-header nav li a:hover {
+header ul li {
+  padding: 0px 12px;
+  color: #00FF00;
+  font-size: 18px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  flex-direction: row;
+}
+header ul li:hover {
   font-size: 20px;
+  transform: translateY(-3px);
+  transition: all 0.3s ease;
+}
+
+footer {
+  background-color: #000000;
+  padding: 12px;
+  color: #ffffff;
+  font-size: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /*# sourceMappingURL=estilo.css.map */
