@@ -16,6 +16,7 @@ header {
   position: fixed;
   display: flex;
   justify-content: center;
+  z-index: 600000;
 }
 header ul {
   list-style-type: none;
