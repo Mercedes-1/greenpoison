@@ -18,24 +18,3 @@
 
 
 
-header {
-    background-color:$terciary-color;
-    padding: 15px;
-    position: fixed;
-    display: flex;
-    flex-direction: row;
-        nav{
-            top: 0;
-            left: 0;
-                li .menu-item{
-                    text-decoration: none;
-                    }
-                    a{
-                    &:hover{
-                        font-size: 20px;
-                        
-                        }
-                    }
-            
-                }
-}
