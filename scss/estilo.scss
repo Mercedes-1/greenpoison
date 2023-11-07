@@ -26,14 +26,15 @@ header {
             display: flex;
             top: 0;
             left: 0;
-                a{
+                ul li .menu-item{
+                    text-decoration: none;
+                    }
+                    a{
                     &:hover{
                         font-size: 20px;
-                        text-decoration: none;
                         
+                        }
                     }
-                }
             
-            }
+                }
 }
-
