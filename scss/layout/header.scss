@@ -5,14 +5,14 @@ header {
     display: flex;
     justify-content: center;
     ul{
-        list-style-type: none;
-        text-decoration: none;
-        flex-direction: row;
+        list-style-type: none; 
         li{
             padding: 0px 12px;
             color: $secondary-color;
             font-size: 18px;
             transition: all 0.3s ease;
+            text-decoration: none;
+            flex-direction: row;
             &:hover{
                 font-size: 20px;
                 transform: translateY(-3px);
