@@ -4,6 +4,7 @@ header {
     position: fixed;
     display: flex;
     justify-content: center;
+    z-index: 600000;
     ul{
         list-style-type: none; 
         li{
