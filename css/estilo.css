@@ -27,6 +27,8 @@ header {
 .logo {
   display: flex;
   align-items: center;
+  margin: 15px;
+  height: 400px;
 }
 
 .logo-image {
