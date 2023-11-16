@@ -18,13 +18,12 @@
 
 
 
-
-footer{
-    background-color:$terciary-color;
-    padding: 12px;
-    color:$primary-color;
-    font-size: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 75px 500px 40px;
+    grid-template-areas: 
+    header header header header
+    main main main main
+    footer footer footer footer;
 }

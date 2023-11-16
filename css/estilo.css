@@ -1,72 +1,53 @@
 @import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@200;400;700&display=swap");
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  font-family: "Hanken Grotesk";
+}
 
-
-body {
+* {
   margin: 0;
   padding: 0;
   font-family: "Hanken Grotesk";
-  position: relative; /* Agregado para que el footer no se superponga al contenido */
-  min-height: 100vh; /* Agregado para asegurarse de que el cuerpo tenga al menos el alto completo de la ventana */
+}
+
+body {
+  margin: 0;
 }
 
 header {
   background-color: #000000;
-  padding: 20px;
-  color: #ffffff;
-  font-size: 18px;
-  height: 350PX;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  padding: 15px 0px;
+  z-index: 500000px;
   position: fixed;
-  width: 100%;
-  top: 0;
-  flex-direction: row;
-}
-
-.logo {
+  width: 100%; /* Ajusta el ancho al 100% */
   display: flex;
-  align-items: center;
-  margin: 15px;
-  height: 400px;
-}
-
-.logo-image {
-  margin-right: 10px;
-  margin-left: 10px;
-  height: 400px;
-
+  justify-content: center;
+  grid-area: header;
 }
 header ul {
   list-style-type: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
-  margin: 0;
 }
-
 header ul li {
   padding: 0px 12px;
   transition: all 0.3s ease;
-  display: flex;
-  flex-direction: row;
 }
-
 header ul li a {
   color: #00FF00;
+  font-size: 18px;
   text-decoration: none;
-  display: flex;
-  flex-direction: row;
 }
-
 header ul li:hover {
   font-size: 20px;
   transform: translateY(-3px);
-  flex-direction: row;
+  transition: all 0.3s ease;
 }
 
-
+main {
+  grid-area: main;
+}
+main .carouselExampleControls {
+  margin-top: 80px;
+}
 
 footer {
   background-color: #000000;
@@ -76,15 +57,14 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: absolute;
-  width: 100%;
-  bottom: 0;
+  grid-area: footer;
 }
 
-.menu-item {
-  margin-right: 15px; /* Espaciado entre elementos del menú */
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 75px 500px 40px;
+  grid-template-areas: header header header header main main main main footer footer footer footer;
 }
 
-.menu-item:last-child {
-  margin-right: 0; /* Eliminar margen derecho del último elemento del menú */
-}
+/*# sourceMappingURL=estilo.css.map */
