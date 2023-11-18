@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    background-color: $terciary-color;
+    font-family:'Hanken Grotesk';
+}
 body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;

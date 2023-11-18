@@ -71,6 +71,12 @@ footer {
   align-items: center;
 }
 
+* {
+  margin: 0;
+  background-color: #000000;
+  font-family: "Hanken Grotesk";
+}
+
 body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -78,11 +84,62 @@ body {
   grid-template-areas: header header header header main main main main footer footer footer footer;
 }
 
+main {
+  display: flex;
+}
+main div #texto-bases {
+  list-style-type: circle;
+  align-items: center;
+}
+
+* {
+  margin: 0;
+  background-color: #000000;
+  font-family: "Hanken Grotesk";
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 75px 500px 40px;
+  grid-template-areas: header header header header main main main main footer footer footer footer;
+}
+
+* {
+  margin: 0;
+  background-color: #000000;
+  font-family: "Hanken Grotesk";
+}
+
 body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 75px 500px 40px;
   grid-template-areas: header header header header nav main main main footer footer footer footer;
+}
+
+* {
+  margin: 0;
+  background-color: #000000;
+  font-family: "Hanken Grotesk";
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 75px 500px 40px;
+  grid-template-areas: header header header header main main main main footer footer footer footer;
+}
+
+main {
+  display: flex;
+  align-content: center;
+}
+main h1 {
+  font-size: 90px;
+}
+main p {
+  font-size: 75px;
 }
 
 body {
