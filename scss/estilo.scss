@@ -30,3 +30,15 @@ body{
         grid-area: nav;
     }
 }
+@media (max-width:375px) and (orientation: potrait){
+    header{
+        height: auto;
+        padding: 40px;
+        font-size: 5px;
+        align-items: center;
+        flex-direction: column;
+        }
+}   .carouselExampleControls{
+    width: 100%;
+    height: auto;
+}
