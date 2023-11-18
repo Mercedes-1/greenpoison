@@ -2,10 +2,12 @@ $primary-color:#ffffff;
 $secondary-color:#00FF00;
 $terciary-color: #000000;
 
-@if $primary-color == #ffffff{
-    $color-parrafo: #000000
-}
-
-@if $primary-color == #000000{
-    $color-parrafo: #ffffff
-}
+@mixin tamañoBoton($tamanio){
+    @if $tamanio == "small"{
+        padding: 10px 20px;
+        font-size: 15px;
+    }@else if $tamanio == "medium"{
+        padding: 12px 22px;
+        font-size: 17px;
+    }
+}    
