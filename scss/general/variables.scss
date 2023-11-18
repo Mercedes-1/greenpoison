@@ -2,7 +2,7 @@ $primary-color:#ffffff;
 $secondary-color:#00FF00;
 $terciary-color: #000000;
 
-@mixin tamañoBoton($tamanio){
+@mixin tamañoTexto($tamanio){
     @if $tamanio == "small"{
         padding: 10px 20px;
         font-size: 15px;

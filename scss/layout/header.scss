@@ -4,6 +4,7 @@ body {
 
 header {
     background-color: $terciary-color;
+    display: grid;
     padding: 15px 0px;
     z-index: 500000px;
     position: fixed;

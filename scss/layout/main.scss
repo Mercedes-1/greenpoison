@@ -1,6 +1,7 @@
 main{
+    display: grid;
+    grid-area: main;
     .carouselExampleControls{
-            grid-area: main;
             margin-top: 80px;
             width: 100%;
             height: 40px;
