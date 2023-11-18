@@ -1,10 +1,10 @@
 footer{
     background-color:$terciary-color;
+    grid-area: footer;
     padding: 12px;
     color:$primary-color;
     font-size: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    grid-area: footer;
 }
