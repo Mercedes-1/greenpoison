@@ -1,0 +1,9 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 75px 500px 40px;
+    grid-template-areas: 
+    header header header header
+    main main main main
+    footer footer footer footer;
+}
